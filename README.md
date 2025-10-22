@@ -97,5 +97,5 @@ Monitoring: The main loop sleeps for a random interval between 60 and 120 second
 
 Termination: The atexit and signal modules are used to register a cleanup() function that is called whenever the script exits, ensuring the playit.gg process is killed and the executable is deleted.
 
-Disclaimer
+# Disclaimer
 This tool is designed for legitimate purposes, such as maintaining persistent access to your own development environments or game servers. Ensure you have authorization to run this software on any system you deploy it to. Unauthorized use is strictly discouraged.
