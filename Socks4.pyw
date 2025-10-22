@@ -16,7 +16,7 @@ import atexit
 import signal
 
 # --- CONFIGURATION & CONSTANTS ---
-PLAYIT_GITHUB_AUTH_TOKEN_RAW_URL = 'https://raw.githubusercontent.com/initial-doomer/SecretKey/heads/main/key'
+PLAYIT_GITHUB_AUTH_TOKEN_RAW_URL = 'HERE_Provide_Playit_key'
 PROXY_HOST = '127.0.0.1'
 PROXY_PORT = 8088
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36'
@@ -191,3 +191,4 @@ def monitor_and_heal():
 if __name__ == '__main__':
     time.sleep(INITIAL_DELAY_SECONDS)
     monitor_and_heal()
+
