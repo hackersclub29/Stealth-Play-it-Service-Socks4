@@ -1,4 +1,4 @@
-Stealth Play-it Service
+# Stealth Play-it Service
 This project provides a resilient, silent background service that combines a local SOCKS4 proxy with a persistent playit.gg tunnel. It is designed to run completely invisibly, manage itself, and clean up after termination, making it ideal for providing reliable, long-term access to a local network service without manual intervention.
 
 Features
